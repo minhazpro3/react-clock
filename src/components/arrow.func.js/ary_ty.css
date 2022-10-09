@@ -1,0 +1,10 @@
+.dg_time {
+  position: absolute;
+  top: 70%;
+  left: 47%;
+}
+
+.dg_time span {
+  font-weight: 500;
+  font-size: 24px;
+}
