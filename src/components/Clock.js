@@ -25,7 +25,7 @@ class Clock extends Component {
           <div
             className="hour_hand"
             style={{
-              transform: `rotateZ(${this.state.time.getHours() * 30}deg)`,
+              transform: `rotateZ(${this.state.time.getHours() * 30 + 30}deg)`,
             }}
           ></div>
           <div
@@ -37,7 +37,9 @@ class Clock extends Component {
           <div
             className="sec_hand"
             style={{
-              transform: `rotateZ(${this.state.time.getSeconds() * 6}deg)`,
+              transform: `rotateZ(${
+                this.state.time.getSeconds() * 6 + 0.5
+              }deg)`,
             }}
           ></div>
           <span className="twelve">12</span>

@@ -10,7 +10,7 @@ const Try_Arr = () => {
     setCtime(time);
   };
 
-  setInterval(updateTime, 100);
+  setInterval(updateTime, 1000);
 
   return (
     <div className="dg_time">

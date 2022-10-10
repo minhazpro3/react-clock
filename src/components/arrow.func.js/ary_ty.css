@@ -1,7 +1,7 @@
 .dg_time {
-  position: absolute;
-  top: 70%;
-  left: 47%;
+  position: center;
+  z-index: 5;
+  margin-top: 30%;
 }
 
 .dg_time span {
